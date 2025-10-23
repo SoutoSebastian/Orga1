@@ -1,0 +1,4 @@
+    |00| SET R1 , 0x00
+    |02| SIG R1
+    |04| SIG R1
+fin |06| JMP fin

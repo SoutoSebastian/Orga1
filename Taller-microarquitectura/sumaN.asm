@@ -1,0 +1,16 @@
+SET R0, 0x04 ;para testear
+SET R2, 0x01
+SET R3, 0x00
+SET R1, 0x00
+MOV R4, R0
+ADD R4, R2
+
+ciclo:
+ADD R1, R3
+ADD R3, R2
+CMP R3, R4
+JZ fin
+JMP ciclo
+
+fin:
+JMP fin

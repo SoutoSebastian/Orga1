@@ -1,0 +1,4 @@
+    |00| SET R1 , 0xFF
+    |02| SET R2 , 0x00
+    |04| MIX R1 , R2
+fin |06| JMP fin
